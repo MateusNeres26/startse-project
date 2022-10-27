@@ -17,5 +17,5 @@ function ocultar(){
 }
 
 github.addEventListener("click", function () {
-    location.href = "https://github.com/MateusNeres26/buger-eats-cypress-discovery", target="_blank";
+    location.href = "https://github.com/MateusNeres26/startse-project", target="_blank";
 });
