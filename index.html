@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pesquisa de Interesses</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+
+<body>
+    <nav>
+        <header>Mateus Neres</header>
+        <section class="nav-items">
+            <a href="#">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="#form">Formulário</a>
+        </section>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div class="column-left">
+                <h1>Só projetos incríveis</h1>
+                <p>
+                    Entre em contato pelo formulário para saber mais sobre aplicações de excelência.
+                </p>
+                <a id="CTA-button" href="#form">Comece agora!</a>
+            </div>
+            <picture class="column-right">
+                <img src="/img/image.gif" alt="illustration" id="home-image"/>
+            </picture>
+        </div>
+    </section>
+    <form id="form" action="http://google.com">
+        <section>
+            <h2>Formulário de Interesses</h2>
+            <p>Digite seu nome:
+                <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo" />
+            </p>
+            <p>Digite sua profissão:
+                <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão" />
+            </p>
+            <p>Nos conte um pouquinho sobre você:
+                <textarea name="userComment" cols="30" rows="4"></textarea>
+            </p>
+            <p>Você faz exercícios regularmente?
+                <input type="radio" name="exercise" value=1>Sim
+                <input type="radio" name="exercise" value=2>Não
+            </p>
+            <p>Por onde você lê seus tópicos favoritos
+                <input type="checkbox" name="Books">Livros
+                <input type="checkbox" name="Web">Site
+                <input type="checkbox" name="Apps">Aplicativos
+                <input type="checkbox" name="Magazine">Revistas
+            </p>
+            <p>Qual gênero de filme você mais gosta</n>
+                <select name="moviePref">
+                    <option></option>
+                    <option value="1">Comédia</option>
+                    <option value="2">Romance</option>
+                    <option value="3">Drama</option>
+                    <option value="4">Terror</option>
+                    <option value="5">Ação</option>
+                </select>
+            </p>
+            <input id="form-button" type="submit" value="ENVIAR">
+        </section>
+        <div id="btnTop">
+            <i class="arrow up"></i>
+        </div>
+    </form>
+
+<script src="/js/script.js"></script>
+</body>
+
+</html>
